@@ -1,0 +1,13 @@
+ringbuffer.c:6:6:RingBufferU8_init	1
+ringbuffer.c:15:10:RingBufferU8_available	1
+ringbuffer.c:19:10:RingBufferU8_free	1
+ringbuffer.c:23:6:RingBufferU8_clear	1
+ringbuffer.c:29:9:RingBufferU8_readByte	3
+ringbuffer.c:41:6:RingBufferU8_read	2
+ringbuffer.c:50:6:RingBufferU8_writeByte	3
+ringbuffer.c:64:9:RingBufferU8_write	4
+ringbuffer.c:76:10:RingBufferU8_readLine	1
+ringbuffer.c:80:10:RingBufferU8_readUntil	4
+ringbuffer.c:96:9:RingBufferU8_peek	1
+ringbuffer.c:100:9:RingBufferU8_peekn	3
+ringbuffer.c:113:6:byte_to_hex	3

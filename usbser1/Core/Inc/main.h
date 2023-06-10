@@ -71,11 +71,11 @@ void UartPrintf(const char *format, ...);
 #define Blinker_GPIO_Port GPIOC
 #define EncoderButton_Pin GPIO_PIN_1
 #define EncoderButton_GPIO_Port GPIOB
-#define Button1_Pin GPIO_PIN_13
+#define Button1_Pin GPIO_PIN_12
 #define Button1_GPIO_Port GPIOB
-#define Button2_Pin GPIO_PIN_14
+#define Button2_Pin GPIO_PIN_13
 #define Button2_GPIO_Port GPIOB
-#define Button3_Pin GPIO_PIN_15
+#define Button3_Pin GPIO_PIN_14
 #define Button3_GPIO_Port GPIOB
 #define LED0_Pin GPIO_PIN_3
 #define LED0_GPIO_Port GPIOB
@@ -87,6 +87,7 @@ void UartPrintf(const char *format, ...);
 #define ENC_CLK_GPIO_Port GPIOB
 #define ENC_DATA_Pin GPIO_PIN_9
 #define ENC_DATA_GPIO_Port GPIOB
+
 /* USER CODE BEGIN Private defines */
 #define TEST_LED_Pin GPIO_PIN_0
 #define TEST_LED_GPIO_Port GPIOB
@@ -107,5 +108,3 @@ void UartPrintf(const char *format, ...);
 #endif
 
 #endif /* __MAIN_H */
-
-/************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
