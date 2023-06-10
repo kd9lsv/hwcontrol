@@ -1,0 +1,15 @@
+main.c:65:9:uint8_toupper	3
+main.c:71:6:report_version	1
+main.c:76:6:set_reg_val	3
+main.c:85:6:cmd_proc	25
+main.c:185:5:main	19
+main.c:333:6:SystemClock_Config	3
+main.c:380:6:UartPrintf	1
+main.c:393:6:Encoder_Init	1
+main.c:406:9:PushButton_Read	5
+main.c:443:5:encoder1_read	3
+main.c:460:5:encoder_read	3
+main.c:480:6:encoder1_routine_1ms	7
+main.c:528:6:SysTick_Handler_1ms	1
+main.c:536:6:SysTick_Handler_5ms	2
+main.c:552:6:Error_Handler	1
