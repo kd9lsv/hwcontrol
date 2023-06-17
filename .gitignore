@@ -50,3 +50,8 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+/usbser1/.metadata
+/usbser1/.settings
+/.vscode
+/usbser1/.project

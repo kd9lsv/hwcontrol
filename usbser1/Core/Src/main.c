@@ -24,8 +24,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include "usb_device.h"
-#include "usbd_cdc_acm_if.h"
+#include "tusb.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -217,7 +216,7 @@ int main(void)
   MX_GPIO_Init();
   MX_USB_PCD_Init();
   /* USER CODE BEGIN 2 */
-  MX_USB_DEVICE_Init();
+  tusb_init();
 	// initialize the pushbutton handler with mask byte.
 	PushButton_Init(0x0F);
 
@@ -386,7 +385,7 @@ void UartPrintf(const char *format, ...)
 	va_start(args, format);
 	size = vsprintf(buffer, format, args);
 	va_end(args);
-	CDC_Transmit(1,(uint8_t*)buffer, size);
+	//CDC_Transmit(1,(uint8_t*)buffer, size);
 	//HAL_UART_Transmit(&huart1, (uint8_t*)buffer, size, 1000);
 }
 

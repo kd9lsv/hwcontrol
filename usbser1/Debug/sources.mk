@@ -22,12 +22,8 @@ C_DEPS :=
 
 # Every subdirectory with source files must be described here
 SUBDIRS := \
+Core/Inc \
 Core/Src \
 Core/Startup \
 Drivers/STM32F1xx_HAL_Driver/Src \
-Middlewares/Third_Party/AL94_USB_Composite/COMPOSITE/App \
-Middlewares/Third_Party/AL94_USB_Composite/COMPOSITE/Class/CDC_ACM/Src \
-Middlewares/Third_Party/AL94_USB_Composite/COMPOSITE/Class/COMPOSITE/Src \
-Middlewares/Third_Party/AL94_USB_Composite/COMPOSITE/Core/Src \
-Middlewares/Third_Party/AL94_USB_Composite/COMPOSITE/Target \
 

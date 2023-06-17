@@ -1,0 +1,3 @@
+[submodule "usbser1/tinyusb"]
+	path = usbser1/tinyusb
+	url = git@github.com:hathach/tinyusb.git
